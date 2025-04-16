@@ -20,9 +20,9 @@ def main():
         # If not, code continues
         else:
 
-            # calculate the square of each number from 0 to the user number
+            # calculate the square of each number from 0 to the user's number
             for counter in range(user_number_as_int + 1):
-                power_of_two = counter**2
+                power_of_two = counter ** 2
                 print("{}^2 = {}".format(counter, power_of_two))
 
     # If user num is not a int this happens
